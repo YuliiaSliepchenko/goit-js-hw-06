@@ -26,7 +26,7 @@ const refs = {
 }
 const createBoxes = amount => {
   let width = 30;
-  let height = 30;
+  let height = 30; 
   for (let i = 1; i <= amount; i += 1){
     refs.boxContainer.insertAdjacentHTML("afterbegin", 
     `<div data-box></div>`);
