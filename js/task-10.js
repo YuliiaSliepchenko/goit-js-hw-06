@@ -48,12 +48,29 @@ function handleCreate() {
 }
 destroyEl.addEventListener("click", handleDestroy)
 function handleDestroy() {
-  boxesEl.innerHTML = ""
+ boxesEl.innerHTML = "",
+ document.getElementById("controls").reset();
 }
+// input.value = function clearInput() {
+//   document.getElementById("controls").reset();
+// }
 
-destroyEl.addEventListener("click", handleDestroy) 
-function reserValue() {
-  controlEl.input.toogle("value")};
+// destroyEl.addEventListener("click", clearInput)
+// function clearInput(){
+//  let getValue= document.getElementsByTagName("input");
+//     if (getValue.input.value !="") {
+//       getValue.input.value = "";
+//     }
+// }
+// document.getElementById("#controls").reset()
+// destroyEl.addEventListener("click", clearInput)
+// function clearInput() {
+//   document.getElementById("#controls, input").reset();
+// }
+
+// destroyEl.addEventListener("click", handleDestroy) 
+// function resetValue() {
+//   controlEl.input.toogle("value")};
 
 
 
@@ -71,7 +88,7 @@ function reserValue() {
 
 
 
-  
+
 
 // const refs = {
 //   input: document.querySelector("#controls input"),
