@@ -8,3 +8,4 @@ navElCategory.forEach(element => {
     console.log('Category:' , textEl.textContent);
     console.log('Elements:' , listLiEl.length);
 });
+

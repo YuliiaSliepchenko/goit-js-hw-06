@@ -99,6 +99,26 @@ function handleDestroy() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // input.value = function clearInput() {
 //   document.getElementById("controls").reset();
 // }
