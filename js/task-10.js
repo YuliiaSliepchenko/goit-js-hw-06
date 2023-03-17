@@ -32,7 +32,7 @@ function createBoxes(amount) {
     "width: ${size}px; height:${size}px;
      background-color: ${getRandomHexColor()}"></div>`
   }
-  boxesEl.style.cssText = 'display:flex; justify-content:flex-start;';
+  boxesEl.style.cssText = 'justify-content:flex-start;';
   boxesEl.innerHTML = ""
   boxesEl.insertAdjacentHTML("beforeend", markup)
   
