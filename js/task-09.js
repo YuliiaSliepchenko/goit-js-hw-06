@@ -17,8 +17,9 @@ function getRandomHexColor() {
 
 
 const changeColor = () => {
-  spanEl.textContent = getRandomHexColor();
-  bodyColor.style.backgroundColor = getRandomHexColor();
+  const differentColor = getRandomHexColor();
+  spanEl.style.color = differentColor;
+  bodyColor.style.backgroundColor = differentColor;
 };
 
 bodyChange.addEventListener("click", changeColor);
